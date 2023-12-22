@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: EFEBE9;" stylesheets="@../../../../../../MyLastCsProject/src/main/resources/css/overviewPage.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.overviewPageController">
+   <children>
+      <Button fx:id="overviewIncomeButton" layoutX="60.0" layoutY="309.0" mnemonicParsing="false" onAction="#overviewIncomeButton" prefHeight="96.0" prefWidth="305.0" styleClass="incomeButton" text="Income">
+         <font>
+            <Font name="LilyUPC Bold" size="43.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="97.0" layoutY="151.0" prefHeight="57.0" prefWidth="605.0" text="Your overview" textFill="#3e2723">
+         <font>
+            <Font name="Georgia Bold" size="54.0" />
+         </font>
+      </Label>
+      <Button fx:id="overviewExpensesButton" layoutX="431.0" layoutY="309.0" mnemonicParsing="false" onAction="#overviewExpensesButton" prefHeight="96.0" prefWidth="305.0" styleClass="expensesButton" text="Expenses">
+         <font>
+            <Font name="LilyUPC Bold" size="43.0" />
+         </font>
+      </Button>
+      <Button fx:id="handleBackButton" layoutX="54.0" layoutY="486.0" mnemonicParsing="false" onAction="#handleBackButton" prefHeight="50.0" prefWidth="122.0" styleClass="backButton" text="Back">
+         <font>
+            <Font name="LilyUPC Bold" size="43.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
